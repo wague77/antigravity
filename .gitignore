@@ -1,5 +1,5 @@
 # ============================================================
-# TURFEX — .gitignore
+# TURFEX ï¿½ .gitignore
 # ============================================================
 
 # ---- Node / Next.js (frontend) ----
@@ -35,7 +35,7 @@ pip-wheel-metadata/
 .eggs/
 *.egg
 
-# ---- Base de données SQLite (données locales) ----
+# ---- Base de donnï¿½es SQLite (donnï¿½es locales) ----
 *.db
 *.sqlite
 *.sqlite3
@@ -77,3 +77,4 @@ htmlcov/
 *.pid
 *.seed
 *.pid.lock
+.vercel
