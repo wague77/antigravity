@@ -1,0 +1,43 @@
+
+{
+  "short_name": "TURFEX",
+  "name": "TURFEX — Intelligence PMU",
+  "description": "Calculateur CAF, scraping PMU, analyse pro et stratégie de jeux",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#000000",
+  "background_color": "#f5d4a0",
+  "lang": "fr",
+  "categories": ["sports", "finance", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Pronostic rapide",
+      "short_name": "Pronostic",
+      "description": "Accès direct au pronostic rapide",
+      "url": "/"
+    },
+    {
+      "name": "Tracker de paris",
+      "short_name": "Paris",
+      "description": "Suivre tes paris réels",
+      "url": "/paris"
+    }
+  ]
+}
+

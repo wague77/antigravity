@@ -1,0 +1,78 @@
+
+/* TURF ASTRO — Styles dédiés (scopés sous .turf-astro-root pour ne pas affecter TURFEX).
+ * Issus de turf_astro_source_complet.txt (App.css + index.css fonts) — préservés à l'identique.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+.turf-astro-root {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  color: #1f2a24;
+  text-align: left;
+}
+
+.turf-astro-root .font-display {
+  font-family: 'Fraunces', 'Times New Roman', serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "SOFT" 50, "WONK" 0;
+  letter-spacing: -0.02em;
+}
+
+.turf-astro-root .bg-paper {
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(212, 165, 65, 0.10), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgba(15, 81, 50, 0.08), transparent 60%),
+    #f6f1e7;
+}
+
+.turf-astro-root .turf-grain {
+  background-image:
+    radial-gradient(rgba(15, 81, 50, 0.06) 1px, transparent 1px),
+    radial-gradient(rgba(15, 81, 50, 0.04) 1px, transparent 1px);
+  background-size: 22px 22px, 11px 11px;
+  background-position: 0 0, 11px 11px;
+}
+
+.turf-astro-root .card-bevel {
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.7) inset,
+    0 -1px 0 rgba(15, 81, 50, 0.06) inset,
+    0 6px 24px -10px rgba(15, 81, 50, 0.18);
+}
+
+.turf-astro-root .gold-line {
+  background: linear-gradient(90deg, transparent, #d4a541 35%, #d4a541 65%, transparent);
+  height: 1px;
+}
+
+.turf-astro-root .scroll-x::-webkit-scrollbar { height: 8px; }
+.turf-astro-root .scroll-x::-webkit-scrollbar-thumb { background: #0f513240; border-radius: 999px; }
+
+.turf-astro-root .casaque-shadow {
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.18));
+}
+
+.turf-astro-root .race-pill {
+  font-feature-settings: "tnum";
+}
+
+.turf-astro-root .kbd {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+@keyframes turfAstroRaceIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.turf-astro-root .race-in { animation: turfAstroRaceIn 0.45s ease-out both; }
+.turf-astro-root .race-in-stagger > * { animation: turfAstroRaceIn 0.45s ease-out both; }
+.turf-astro-root .race-in-stagger > *:nth-child(1) { animation-delay: 0.02s; }
+.turf-astro-root .race-in-stagger > *:nth-child(2) { animation-delay: 0.05s; }
+.turf-astro-root .race-in-stagger > *:nth-child(3) { animation-delay: 0.08s; }
+.turf-astro-root .race-in-stagger > *:nth-child(4) { animation-delay: 0.11s; }
+.turf-astro-root .race-in-stagger > *:nth-child(5) { animation-delay: 0.14s; }
+.turf-astro-root .race-in-stagger > *:nth-child(6) { animation-delay: 0.17s; }
+.turf-astro-root .race-in-stagger > *:nth-child(7) { animation-delay: 0.20s; }
+.turf-astro-root .race-in-stagger > *:nth-child(8) { animation-delay: 0.23s; }
+.turf-astro-root .race-in-stagger > *:nth-child(9) { animation-delay: 0.26s; }
+.turf-astro-root .race-in-stagger > *:nth-child(10) { animation-delay: 0.29s; }
+

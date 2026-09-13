@@ -1,0 +1,75 @@
+
+/* WAGUE — 'Le Pari de la Fortune' — styles scopés sous .fortune-root */
+.fortune-root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #0f172a;
+}
+
+.fortune-root .font-cabinet {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.fortune-root .font-ibm-mono {
+  font-family: ui-monospace, "SF Mono", Menlo, Monaco, Consolas, monospace;
+}
+
+.fortune-root .font-ibm-sans {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.fortune-root .text-turf,
+.fortune-root .border-turf {
+  color: #0F4C3A;
+}
+.fortune-root .border-turf {
+  border-color: #0F4C3A;
+}
+.fortune-root .bg-turf {
+  background-color: #0F4C3A;
+  color: white;
+}
+.fortune-root .bg-turf:hover,
+.fortune-root .hover\:bg-turf-dark:hover {
+  background-color: #0a3329;
+}
+.fortune-root .text-gold,
+.fortune-root .border-gold {
+  color: #C9A227;
+}
+.fortune-root .border-gold {
+  border-color: #C9A227;
+}
+.fortune-root .bg-gold {
+  background-color: #C9A227;
+  color: white;
+}
+.fortune-root .fill-gold {
+  fill: #C9A227;
+}
+.fortune-root .grid-bg {
+  background-image:
+    linear-gradient(rgba(15, 76, 58, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 76, 58, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+.fortune-root .ticket-paper {
+  background:
+    repeating-linear-gradient(
+      45deg,
+      #fffaf0,
+      #fffaf0 10px,
+      #fff7e6 10px,
+      #fff7e6 20px
+    );
+}
+.fortune-root .scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.fortune-root .scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(15, 76, 58, 0.3);
+  border-radius: 999px;
+}
+
