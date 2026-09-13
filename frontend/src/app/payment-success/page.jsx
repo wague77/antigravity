@@ -24,7 +24,7 @@ const API = `${BACKEND_URL}/api`;
 const POLL_INTERVAL_MS = 3000;
 const MAX_POLLS = 120; // ~6 minutes max
 
-const PaymentSuccess = () => {
+import { Suspense } from "react";`nconst PaymentSuccessContent = () => {
   const router = useRouter();
   const params = useSearchParams();
   const [status, setStatus] = useState("polling");
@@ -275,5 +275,5 @@ const PaymentSuccess = () => {
   );
 };
 
-export default PaymentSuccess;
+const PaymentSuccess = () => {`n  return (`n    <Suspense fallback={<div className="min-h-screen bg-black flex items-center justify-center text-white">Chargement...</div>}>`n      <PaymentSuccessContent />`n    </Suspense>`n  );`n};`nexport default PaymentSuccess;
 

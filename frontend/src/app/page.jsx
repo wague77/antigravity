@@ -75,7 +75,7 @@ const Index = () => {
   // Récupère les infos d'auth utilisateur (depuis sessionStorage)
   const userInfo = (() => {
     try {
-      const data = JSON.parse(sessionStorage.getItem("wague-pmu-auth") || "{}");
+      if (typeof window === "undefined") return null; const data = JSON.parse(sessionStorage.getItem("wague-pmu-auth") || "{}");
       if (!data?.code) return null;
       return {
         code: data.code,
